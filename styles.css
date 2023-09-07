@@ -1,0 +1,136 @@
+/* Reset some default styles and apply a basic font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Style the header with a dark background and white text */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style each section with a white background, padding, and border */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style the headings and paragraphs */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Ensure images are responsive and don't overflow their containers */
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Style the footer with a dark background and white text */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+/* Additional styles for the image placement and size */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center; /* Center the image horizontally */
+}
+
+/* Style the image to fit the container */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the maximum height as needed */
+}
+.hidden {
+    display: none;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

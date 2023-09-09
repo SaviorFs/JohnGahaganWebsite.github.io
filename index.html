@@ -11,6 +11,7 @@
     <header>
         <nav>
             <ul>
+                <li><a href="#" onclick="showSection('welcome')">Welcome</a></li>
                 <li><a href="#" onclick="showSection('about')">About</a></li>
                 <li><a href="#" onclick="showSection('resume')">Resume</a></li>
                 <li><a href="#" onclick="showSection('projects')">Projects</a></li>
@@ -18,23 +19,26 @@
             </ul>
         </nav>
     </header>
+    <section id="welcome">
+        <div class="welcome-content">
+            <h1>Welcome to My Personal Website</h1>
+            <p>
+                Thank you for visiting my personal website. I am actively seeking internship opportunities in the field of Computer Science. Please explore the tabs above to learn more about me,
+                my resume, projects, and how to get in touch. I look forward to connecting with you!
+            </p>
+        </div>
+    </section>
+
   
     <section id="about" class="hidden">
         <div class="about-content">
             <div class="about-text">
                 <h1>About Me</h1>
                 <p>
-                    I am currently a Computer Science student working on my bachelor's degree at Western Kentucky University.
-                    I enjoy problem solving situations where my mind is challenged. I happen to be a avid chess player in my
-                    free time. I currently attend the Chess Club at WKU when I am able to do so. I also participate in the 
-                    E-sports program at WKU. I am a current player on the Valorant team for about two years now. 
-                    I like to stay involved in the college community especially if it involves my interests and gaining
-                    fond memories from it. This enjoyment of problem solving activites does not stop at Valorant or Chess,
-                    however. I coded my first website when I was in highschool and I fell in love with it. A lot of 
-                    people like playing Wordle, Crossword Puzzles, Sudoku, etc. in there free time. I like coding. 
-                    In the year of 2022, I recently stumbled upon a website called Leetcode which basically gives 
-                    you a problem and you try to solve it with code. The greatest part to me is not solving it.
-                     Its having a solution and making it better. This can be done so in so many ways which is
+I am a dedicated Computer Science student pursuing my bachelor's degree at Western Kentucky University. With a passion for problem-solving, I thrive in challenging situations
+that engage my analytical mind. My interests extend beyond academics, as I am an avid chess player, an active member of the Chess Club at WKU, and a committed participant in
+the E-sports program, where I have been a Valorant team player for two years. I am enthusiastic about contributing to the college community, especially when it aligns with
+my interests, creating cherished memories along the way.
                 </p>
             </div>
             <div class="about-image">
@@ -56,7 +60,7 @@
     <section id="contact" class="hidden">
         <div class="container">
         <h1>Contact Me</h1>
-        Reach out to me for further inquires via email using the form below! 
+        Reach out to me for further inquires via email: john.gahagan3@gmail.com or phone: 270-223-5301 
         <form action="mailto:john.gahagan3@gmail.com" method="post" enctype="text/plain">
             <div class="form-group">
                 <label for="name">Your Name:</label>
